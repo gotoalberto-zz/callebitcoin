@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vitality Documentation</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/docs.min.css" rel="stylesheet" type="text/css">
+
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom Docs Styles -->
+    <style>
+    .spacer {
+        height: 750px;
+    }
+    .bs-docs-header {
+        background: url('img/bg.gif') center center scroll repeat;
+        color: #fff;
+    }
+    </style>
+
+</head>
+
+<body class="top">
+
+    <!-- Docs page layout -->
+    <div class="bs-docs-header" id="content">
+        <div class="container">
+            <h1>Vitality Documentation</h1>
+            <p>An overview of the Vitality theme along with usage instructions for its various components.</p>
+        </div>
+    </div>
+
+    <div class="container bs-docs-container">
+
+        <div class="row">
+
+            <div class="col-md-9" role="main">
+
+                <div class="bs-docs-section">
+
+                    <!-- Introduction Section -->
+                    <h1 id="introduction" class="page-header">Introduction</h1>
+                    <p class="lead">Vitality is a one page website theme built on the Bootstrap framework.</p>
+                    <p>Thank you for purchasing Vitality! These docs provide usage instructions for the various components built into the theme. If you run into any other problems with the theme, or encounter any bugs, please contact Start Bootstrap Themes directly at <a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>.</p>
+
+                    <!-- What's Included Section -->
+                    <h1 id="whats-included" class="page-header">What's Included</h1>
+                    <p class="lead">Vitality comes with five different prebuilt sample pages for various types of websites along with ten color schemes.</p>
+                    <p>Vitality is a flexible theme and comes with five different website samples and ten color schemes to start with. The theme also includes LESS files for deeper customization, a working contact form, and a variety of powerful jQuery plugins.</p>
+
+                    <h2 id="whats-included-plugins">Plugins</h2>
+                    <p>The following plugins are used in the Vitality theme. For more detailed usage instructions for each plugin, please visit the plugin website using the links provided below.</p>
+                    <dl>
+                        <dt>Font Awesome</dt>
+                        <dl>The iconic font designed for Bootstrap.<br><a href="http://fontawesome.io/">Plugin Website</a>
+                        </dl>
+                        <dt>Magnific Popup</dt>
+                        <dl>A responsive lightbox &amp; dialog script with focus on performance and providing best experience for user with any device.<br><a href="http://dimsemenov.com/plugins/magnific-popup/">Plugin Website</a>
+                        </dl>
+                        <dt>Owl Carousel</dt>
+                        <dl>A touch enabled jQuery plugin that lets you create beautiful responsive carousel sliders.<br><a href="https://github.com/OwlFonk/OwlCarousel">Plugin Website</a>
+                        </dl>
+                        <dt>Retina.js</dt>
+                        <dl>An open source script that makes it easy to serve high-resolution images to devices with retina displays.<br><a href="http://imulus.github.io/retinajs/">Plugin Website</a>
+                        </dl>
+                        <dt>jq Bootstrap Validation</dt>
+                        <dl>A jQuery valdiation plugin for Bootstrap forms.<br><a href="http://reactiveraven.github.io/jqBootstrapValidation/">Plugin Website</a>
+                        </dl>
+                        <dt>Formstone - Wallpaper</dt>
+                        <dl>A jQuery plugin for smooth-scaling image and video backgrounds.<br><a href="http://formstone.it/components/wallpaper">Plugin Website</a>
+                        </dl>
+                    </dl>
+
+                    <div class="bs-callout bs-callout-warning">
+                        <h4>Updating Plugins</h4>
+                        <p>Updating a plguin to a newer version may causes some elements in the theme to malfunction. Please contact Start Bootstrap Themes if you are having a problem updating a plugin and we will update the theme.</p>
+                    </div>
+
+                    <!-- What's Included Section - Color Schemes -->
+                    <h2 id="whats-included-color-schemes">Color Schemes</h2>
+                    <p>Vitality comes built with 10 different color schemes. Each color scheme has it's own CSS file associated with it. After you've picked a color scheme, make sure to uncomment it within the <code>&lt;head&gt;</code> tag. You can use any of the following color schemes:</p>
+                    <ul>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-purple.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-tan.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                        <li>
+                            <code>&lt;link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"&gt;</code>
+                        </li>
+                    </ul>
+
+                    <div class="bs-callout bs-callout-warning">
+                        <h4>Use Only One Stylesheet</h4>
+                        <p>Make sure to only use <strong>one</strong> of the 10 available stylesheets available!</p>
+                    </div>
+
+                    <!-- What's Included Section - Button Styles -->
+                    <h2 id="whats-included-button-styles">Button Styles</h2>
+                    <p>In addition to the defauly Bootstrap buttons there are two additional button styles that are used in the Vitality theme.</p>
+                    <h4>Dark Outline Button</h4>
+                    <p>For use on light backgrounds. Examples: "Send" button on the contact form, "Sign Up" button on the pricing table.</p>
+                    <pre><code>.btn-outline-dark</code></pre>
+
+                    <h4>Light Outline Button</h4>
+                    <p>For use on dark backgrounds. Example: Call to action buttons, "View Details" buttons on the portfolio section.</p>
+                    <pre><code>.btn-outline-dark</code></pre>
+
+                    <!-- Body Styles Section -->
+                    <h1 id="body-styles" class="page-header">Body Styles</h1>
+                    <p>There are three body styles that you can use with the Vitality theme: default, modern, and vintage. To use the files, all you need to do is change the class of the body tag.</p>
+                    <h4>Default Style</h4>
+                    <p>Raleway heading font with Roboto paragraph font.</p>
+                    <pre><code>&lt;body&gt;</code></pre>
+                    <h4>Modern Style</h4>
+                    <p>Montserrat heading font with Cardo paragraph font.</p>
+                    <pre><code>&lt;body class="modern"&gt;</code></pre>
+                    <p></p>
+                    <h4>Vintage Style</h4>
+                    <p>Sanchez heading font with Cardo paragraph font.</p>
+                    <pre><code>&lt;body class="vintage"&gt;</code></pre>
+
+                    <div class="bs-callout bs-callout-warning">
+                        <h4>Font Dependencies</h4>
+                        <p>Each body style uses different fonts. Check the fonts in the <code>&lt;head&gt;</code> section to make sure you are using the correct fonts for your style.</p>
+                    </div>
+
+                    <!-- Header Section -->
+                    <h1 id="header" class="page-header">Header</h1>
+                    <p>The Vitality header comes with two options. You can either use a background image or a background video.</p>
+
+                    <!-- Header Section - Background Image -->
+                    <h2 id="header-image">Background Image</h2>
+                    <p>The first option for the Vitality header is the use of a background image. The header background image in the sample templates are set using <strong>inline CSS</strong> directly in the document.</p>
+                    <p>To edit the header image, change the path of the background image in the <code>&lt;header&gt;</code> tag. Make sure your image path is correct.</p>
+                    <p><strong>Example: </strong><code>&lt;header style="background-image: url('assets/img/bg-header.jpg')"&gt;</code>.</p>
+
+                    <div class="bs-callout bs-callout-warning">
+                        <h4>Background Image Style &amp; Dimensions</h4>
+                        <p>All of the images in the theme samples were edited in Photoshop to have a dark overlay. For optimial legibility on the foreground content, we recommend giving all background images a 50% opacity, black overlay or decreasing the brightness on the image.</p>
+                        <p>Our recommended image dimensions for background images is <strong>1500x1000 pixels</strong>.</p>
+                    </div>
+
+                    <!-- Header Section - Background Video -->
+                    <h2 id="header-video">Background Video</h2>
+                    <p>To configure a background video for your header you will need to configure the Formstone Wallpaper plugin in the <code>vitality.js</code> file. You must also be using the header structure used in the <code>video.html</code> sample file. You will also want to edit the file path of the mobile fallback image.</p>
+                    <p><strong>Example:</strong> Edit the <code>poster</code> and <code>mp4</code> file paths in the <code>vitality.js</code> file. Supported file formats are mp4, ogg, and webm. For more information on using the Formstone Wallpaper plugin, visit <a href="http://formstone.it/components/wallpaper">http://formstone.it/components/wallpaper</a>.</p>
+                    <pre><code>// Formstone Wallpaper - Video Background Settings
+$("header.video").wallpaper({
+    source: {
+        poster: "assets/img/bg-mobile-fallback.jpg",
+        mp4: "assets/mp4/camera.mp4"
+    }
+});</code></pre>
+
+                    <!-- Contact Form Section -->
+                    <h1 id="contact-form" class="page-header">Contact Form</h1>
+                    <p>Vitality includes a working contact form. All of the sample pages, except for the <code>culinary.html</code> sample, include a contact form. In order to activate the form, follow these directions:</p>
+                    <ul>
+                        <li>Open the <code>mail/contact_me.php</code> file.</li>
+                        <li>On line 19, enter the email address you want mail sent to. <code>$to = 'YOUR-EMAIL-ADDRESS@YOUR-DOMAIN.com'; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE FORM TO SEND MAIL TO*</code>
+                        </li>
+                        <li>On line 22, enter the email address you want messages sent to you to be from. <code>$headers = "From: noreply@YOUR-DOMAIN.com\n"; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE MESSAGE TO BE FROM*</code>. Typically, an email address like noreply@your-domain.com will work here.</li>
+                        <li>Save, and upload the file.</li>
+                    </ul>
+
+                    <div class="bs-callout bs-callout-warning">
+                        <h4>Adding Fields</h4>
+                        <p>If you want to add fields to the contact form, you will need to edit the <code>mail/contact_me.php</code> file as well as the <code>assets/js/contact_me.js</code> file. Requires basic working knowledge of PHP and JavaScript.</p>
+                    </div>
+
+                    <h1 id="retina-images" class="page-header">Retina Images</h1>
+                    <p>The Retina.js jQuery plugin allows for easy retina image support with this theme. The <code>retina.js</code> script checks your server for images with the @2x modifier. If an image exists with the @2x modifier, retina devices will load that image instead of the original.</p>
+                    <p>For example, in our samples, we include a <code>logo.png</code> file in our navigation bar. If you look in the <code>assets/img/</code> folder, you will see two versions of the file: <code>logo.png</code> and <code>logo@2x.png</code>. The difference between the two files is that the <code>logo@2x.png</code> file is <strong>twice the size</strong> of the original file. On retina devices, the @2x file will load in place of the original file, displaying crisp, high quality image.</p>
+                    <p>For more information about using the Retina.js plugin please visit <a href="http://imulus.github.io/retinajs/">http://imulus.github.io/retinajs/</a>.</p>
+
+                    <h1 id="email-support" class="page-header">Email Support</h1>
+                    <p>If you run into problems, bugs, or have general questions about the theme, please feel free to email us at <strong><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a></strong> and we will attempt to answer your questions. We also offer custom design services, which are not included as part of this theme.</p>
+                    <p>Once again, thank you for choosing Vitality, and we wish you the best of luck on many projects to come!</p>
+
+                    <div class="spacer"></div>
+
+                </div>
+                <!-- /.bs-docs-section -->
+
+            </div>
+            <!-- /.col-md-9 -->
+
+            <div class="col-md-3">
+                <div class="bs-docs-sidebar">
+                    <ul class="nav bs-docs-sidenav">
+                        <li>
+                            <a href="#introduction">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#whats-included">What's Included</a>
+                            <ul class="nav">
+                                <li>
+                                    <a href="#whats-included-plugins">Plugins</a>
+                                </li>
+                                <li>
+                                    <a href="#whats-included-color-schemes">Color Schemes</a>
+                                </li>
+                                <li>
+                                    <a href="#whats-included-button-styles">Button Styles</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#body-styles">Body Styles</a>
+                        </li>
+                        <li>
+                            <a href="#header">Header</a>
+                            <ul class="nav">
+                                <li>
+                                    <a href="#header-image">Background Image</a>
+                                </li>
+                                <li>
+                                    <a href="#header-video">Background Video</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#contact-form">Contact Form</a>
+                        </li>
+                        <li>
+                            <a href="#retina-images">Retina Images</a>
+                        </li>
+                        <li>
+                            <a href="#email-support">Email Support</a>
+                        </li>
+                    </ul>
+                    <a class="back-to-top" href="#top">Back to top</a>
+                </div>
+            </div>
+            <!-- /.col-md-3 -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Core Scripts -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+
+</body>
+
+</html>
