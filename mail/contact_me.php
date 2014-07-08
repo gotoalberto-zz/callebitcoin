@@ -16,10 +16,10 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // create email body and send it	
-$to = 'YOUR-EMAIL-ADDRESS@YOUR-DOMAIN.com'; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE FORM TO SEND MAIL TO*
-$email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@YOUR-DOMAIN.com\n"; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE MESSAGE TO BE FROM*
+$to = 'info@callebitcoin.es'; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE FORM TO SEND MAIL TO*
+$email_subject = "#CalleBitcoin consulta web de:  $name";
+$email_body = "Has recibido un mensaje de Calle Bitcoin.\n\n"."Esta es la consulta:\n\Nombre: $name\n\nEmail: $email_address\n\nTelefono: $phone\n\nConsulta:\n$message";
+$headers = "From: noreply@callebitcoin.es\n"; // *REPLACE WITH THE EMAIL ADDRESS YOU WANT THE MESSAGE TO BE FROM*
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
