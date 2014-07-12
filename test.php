@@ -5,4 +5,6 @@ function fetchArray($in)
        return include $in;
   return false
 }
+
+echo"test";
 ?>
